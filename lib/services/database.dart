@@ -6,7 +6,8 @@ import '../services/api_client.dart';
 class DatabaseService {
   static Future<List<Country>> getAllCountries() async {
     final List<Country> _list = <Country>[];
-    const String query = r'''{
+    const String query = '''
+    {
         countries {
           name
           population

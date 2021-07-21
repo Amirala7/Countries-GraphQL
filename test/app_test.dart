@@ -6,7 +6,8 @@ import 'package:remytest/services/api_client.dart';
 
 void main() {
   test('Fetch countries api call', () async {
-    const String query = r'''{
+    const String query = '''
+    {
         countries {
           name
           population

@@ -31,7 +31,7 @@ linter:
     public_member_api_docs: false
     
     # Blindly follow the Flutter code style, which prefers types everywhere
-    always_specify_types: true
+    always_specify_types: false
   
     # Back to the 80s
     lines_longer_than_80_chars: true
@@ -41,3 +41,5 @@ linter:
 
     # do not prefer const all the time
     prefer_const_constructors: false
+
+    sort_pub_dependencies: false
