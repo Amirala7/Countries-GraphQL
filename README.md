@@ -1,10 +1,11 @@
-# remytest
+# Countries GraphQL Mobile Client
 
-A new Flutter project.
+A test flutter application, implementing https://www.everbase.co GraphQL api. Personal API key is available in the code for convenience, will be revoked soon.
+CI workflow for testing, analyzing and building can be found in github workflows.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+The project was built with Flutter 2.2.3 with sound null-safety.
 
 A few resources to get you started if this is your first Flutter project:
 
